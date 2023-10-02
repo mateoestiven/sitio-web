@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+
+        section {
+            display: flex;
+            justify-content: center;
+            
+        }
+
+        div {
+            border-radius: 5px;
+            margin: 3px;
+            justify-content: center;
+
+        }
+
+        .tarjeta_uno {
+
+            box-shadow: 0px 0px 5px 0px;
+            display: grid;
+            place-items: center;
+            padding: 5px;
+        }
+
+        .basico_uno {
+            color: #fff;
+             left: 6%;
+             margin: 1.5em;
+             margin-right: 50px;
+             margin-left: 50px;
+             padding: 10px 20px;
+             border-radius: 10px;
+             background: #C02425;  /* fallback for old browsers */
+            background: -webkit-linear-gradient(to left, #F0CB35, #C02425);  /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to left, #F0CB35, #C02425); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+             bottom: 190px;
+        }
+
+        .pago {
+            margin: 10px;
+        }
+
+        h2 {
+            font-size: 50px;
+            margin: 10px ;
+        }
+
+        .boton_tarjeta_uno {
+            margin: 15px;
+            text-decoration: none;
+            border: 2px solid rgb(250, 204, 0);
+            padding: 10px;
+            padding-left: 20px;
+            padding-right: 20px;
+            background: none;
+
+        }
+
+        .boton_tarjeta_dos {
+            margin: 15px;
+            text-decoration: none;
+            border: 2px solid rgb(9, 112, 0);
+            padding: 10px;
+            padding-left: 20px;
+            padding-right: 20px;
+            background: none;
+
+        }
+
+        .boton_tarjeta_tres {
+            margin: 15px;
+            text-decoration: none;
+            border: 2px solid rgb(0, 204, 231);
+            padding: 10px;
+            padding-left: 20px;
+            padding-right: 20px;
+            background: none;
+
+        }
+        
+    </style>
+</head>
+<body>
+    <section class="content">
+    <div class="tarjeta_uno">
+        <p class="basico_uno">Basico</p>
+        <p class="pago">Pago mensual</p>
+        <h2>19</h2>
+        <p>prueba nuestra plataforma <br>cancela cuando quieras</p>
+        <button type="button" class="boton_tarjeta_uno">Escoge este </button>
+    </div>
+    <div class="tarjeta_uno">
+        <p class="basico_uno">Recomendado</p>
+        <p class="pago">Pago anual</p>
+        <h2>99</h2>
+        <p>ahorras 129 comparado al plan <br> mensual</p>
+        <button type="button" class="boton_tarjeta_dos">Escoge este </button>
+    </div>
+    <div class="tarjeta_uno">
+        <p class="basico_uno">mas tiempo</p>
+        <p class="pago">Pago por tiempo</p>
+        <h2>150</h2>
+        <p>prueba nuestra plataforma <br>cancela cuando quieras</p>
+        <button type="button" class="boton_tarjeta_tres">Escoge este </button>
+    </div>
+</section>
+</body>
+</html>
